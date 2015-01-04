@@ -1,0 +1,27 @@
+{
+    "name": "moe-font-sourcesanspro",
+    "version": "1.0.0",
+    "description": "SourceSansPro font",
+    "main": "fonts.css",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SiqiLu/moe-font-sourcesanspro"
+    },
+    "keywords": [
+        "SourceSansPro",
+        "font"
+    ],
+    "author": "Siqi Lu <lu.siqi@outlook.com> (https://github.com/SiqiLu)",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/SiqiLu/moe-font-sourcesanspro/issues"
+    },
+    "homepage": "https://github.com/SiqiLu/moe-font-sourcesanspro",
+    "devDependencies": {
+        "grunt": "^0.4.5",
+        "grunt-contrib-cssmin": "^0.11.0"
+    }
+}

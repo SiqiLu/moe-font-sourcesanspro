@@ -1,0 +1,22 @@
+{
+    "name": "moe-font-sourcesanspro",
+    "version": "1.0.0",
+    "authors": [
+        "Siqi Lu <lu.siqi@outlook.com>"
+    ],
+    "description": "SourceSansPro font",
+    "keywords": [
+        "SourceSansPro",
+        "font"
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/SiqiLu/moe-font-sourcesanspro",
+    "main": ["fonts.css", "fonts.min.css", "*.eot", "*.svg", "*.ttf", "*.woff", "*.woff2"],
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ]
+}
