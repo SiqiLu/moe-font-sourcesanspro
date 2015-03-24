@@ -1,4 +1,5 @@
 module.exports = function (grunt) {
+  'use strict';
 
   grunt.initConfig({
     cssmin: {
@@ -66,6 +67,7 @@ module.exports = function (grunt) {
   });
 
   grunt.registerTask('default', ['js', 'cssmin']);
+
   grunt.registerTask('js', ['jshint', 'jscs']);
   grunt.registerTask('release', ['exec:npmUpdate', 'default', 'bump']);
   grunt.registerTask('release-minor', ['exec:npmUpdate', 'default', 'bump:minor']);
